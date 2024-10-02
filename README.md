@@ -13,11 +13,11 @@ The data comes from a peer-to-peer lending services, and includes the following 
 
 ### Key Steps:
 
-1. Data Preparation: The dataset (lending_data.csv) was read into a Pandas DataFrame. The target variable (loan_status) was separated from the features, and the data was split into training and testing sets using train_test_split.
+Data Preparation: The dataset (lending_data.csv) was read into a Pandas DataFrame. The target variable (loan_status) was separated from the features, and the data was split into training and testing sets using train_test_split.
 
-2. Create Logistic Regression Model: A Logistic Regression model was used  to classify loans into the two categotries. The model was fit using the training data (x_train) and (y_train). The predictions for the testing data labels were then saved using the testing feature data (x_test) and the fitted model. Finally, a confusion matrix and classification report were were generated to evauluate the model's performance.  
+Create Logistic Regression Model: A Logistic Regression model was used to classify loans into the two categotries. The model was fit using the training data (x_train) and (y_train). The predictions for the testing data labels were then saved using the testing feature data (x_test) and the fitted model. 
 
-3. Model Evaluation: A confusion matrix and classification report were were generated to evauluate the model's performance.  
+Model Evaluation: A confusion matrix and classification report were generated to evauluate the model's performance.  
 
 ## Results
 
@@ -37,7 +37,7 @@ The Logistic Regression model performed well, with an overall accuracy of 99%. T
 
 ### Recommendations 
 
-Based on these results, the logistic regression model is recommended for this task. The model predicts healthy loans with a high degree of accuracy, minimizing the risk of incorrectly labeling a healthy loan as high risk. The model also does well in identifying high-risk loans to prevent loan defaults. The precision and recall for high-risk loans show that the model can accurately identify risky borrowers and reduce the likelyhood of missing actual high-risk loans.Ultimately, the model's ability to accurately predict high-risk loans is important for identifying potential defaults, and the high precision for healthy loans ensures that most low-risk loans are correctly classified.
+Based on these results, the logistic regression model is recommended for this task. The model predicts healthy loans with a high degree of accuracy, minimizing the risk of incorrectly labeling a healthy loan as high risk. The model also does well in identifying high-risk loans to prevent loan defaults. The precision and recall for high-risk loans show that the model can accurately identify risky borrowers and reduce the likelyhood of missing actual high-risk loans. Ultimately, the model's ability to accurately predict high-risk loans is important for identifying potential defaults, and the high precision for healthy loans ensures that most low-risk loans are correctly classified.
 
 ## Acknowledgements
     
