@@ -4,8 +4,8 @@
 
 The purpose of this project is to create a logistic regression model to predict the credit risk of borrowers and classify loans into two categories:
 
-0: Healthy loans (low risk of default).
-1: High-risk loans (greater likelihood of default).
+- 0: Healthy loans (low risk of default).
+- 1: High-risk loans (greater likelihood of default).
 
 ### Dataset 
 The data comes from a peer-to-peer lending services, and includes the following details: loan size, interest rates, borrower income, debt-to-income ratio, number of accounts, derogatory marks, total debt and loan status (the target variable). The model aims to predict whether a loan will be high risk (1) or healthy (0).
@@ -13,23 +13,23 @@ The data comes from a peer-to-peer lending services, and includes the following 
 
 ### Key Steps:
 
-Data Preparation: The dataset (lending_data.csv) was read into a Pandas DataFrame. The target variable (loan_status) was separated from the features, and the data was split into training and testing sets using train_test_split.
+1. Data Preparation: The dataset (lending_data.csv) was read into a Pandas DataFrame. The target variable (loan_status) was separated from the features, and the data was split into training and testing sets using train_test_split.
 
-Create Logistic Regression Model: A Logistic Regression model was used to classify loans into the two categotries. The model was fit using the training data (x_train) and (y_train). The predictions for the testing data labels were then saved using the testing feature data (x_test) and the fitted model. 
+2. Create Logistic Regression Model: A Logistic Regression model was used to classify loans into the two categotries. The model was fit using the training data (x_train) and (y_train). The predictions for the testing data labels were then saved using the testing feature data (x_test) and the fitted model. 
 
-Model Evaluation: A confusion matrix and classification report were generated to evauluate the model's performance.  
+3. Model Evaluation: A confusion matrix and classification report were generated to evauluate the model's performance.  
 
 ## Results
 
-* Machine Learning Model 1:
+Machine Learning Model 1:
    
-Accuracy: 99%
-Precision for Class 0 (Healthy Loans): 100%
-Precision for Class 1 (High-risk Loans): 86%
-Recall for Class 0 (Healthy Loans): 99%
-Recall for Class 1 (High-risk Loans): 94%
-F1-score for Class 0: 100%
-F1-score for Class 1: 90%"
+- Accuracy: 99%
+- Precision for Class 0 (Healthy Loans): 100%
+- Precision for Class 1 (High-risk Loans): 86%
+- Recall for Class 0 (Healthy Loans): 99%
+- Recall for Class 1 (High-risk Loans): 94%
+- F1-score for Class 0: 100%
+- F1-score for Class 1: 90%"
 
 ## Summary
 
